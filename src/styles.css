@@ -1,0 +1,8 @@
+/* src/styles.css */
+body {
+    background-color: black;
+    color: white; /* Optional: Sets the text color to white for better visibility */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

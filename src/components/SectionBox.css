@@ -1,0 +1,10 @@
+/* src/components/SectionBox.css */
+.section-box {
+    background-color: #1c1c1c; /* Dark background to contrast with the black page */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    max-width: 800px; /* Limit the width of the box */
+    width: 100%;
+}

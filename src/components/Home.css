@@ -1,0 +1,117 @@
+/* src/components/Home.css */
+.home-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 80px; /* Adjust this based on your navbar height */
+}
+
+.portfolio-title {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(228, 155, 28);
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    background-color: black;
+    position: relative;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between text and photo */
+    transform: translate(-50px, -90px); /* Move text content left and up */
+}
+
+.greeting {
+    font-size: 3.2rem;
+    margin-bottom: 10px; /* Space between greeting and name */
+}
+
+.greeting .highlight {
+    color: #31d2de; /* Change this to the color you want for "Me" */
+}
+
+.name {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #eec211; /* Change this to the desired color for your name */
+}
+
+.description {
+    font-size: 1.5rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 8px solid #eec211;
+    object-fit: cover;
+    transform: translateY(-90px); /* Move the photo up */
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-logo {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
+
+.download-cv-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 20px 30px;
+    background-color: #eec211; /* Button background color */
+    color: black; /* Button text color */
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    background-color: #31d2de; /* Button background color on hover */
+    color: white; /* Button text color on hover */
+}
+
+.highlight-student {
+    color: #ff5733; /* Change this to the desired color for the highlighted text */
+}
+
+.highlight {
+    color: aquamarine;
+}
+
+/* src/components/Home.css */
+.home-section, .about-section, .skills-section, .projects-section, .contact-section {
+    height: 100vh;
+    padding: 20px;
+    color: white;
+}

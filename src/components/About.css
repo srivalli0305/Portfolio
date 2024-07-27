@@ -1,0 +1,54 @@
+/* src/components/About.css */
+#about {
+    margin-top: -0.5rem; /* Move the section up by 100 pixels */
+  }
+.about-section {
+    height: 100vh;
+    padding: 20px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 60px; /* Add some space between the title and description */
+  }
+
+
+.section-title {
+    font-size:8rem;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: #eec211; /* Change to desired color */
+    position: relative;
+    top: -50px; /* Move the title up */
+}
+
+
+.about-content {
+    max-width: 1200px;
+    text-align:initial;
+    display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height: 90vh;
+  margin-left: 90px;
+}
+
+.about-description {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 80px;
+    height:80vh;
+    max-lines:inherit ;
+
+}
+
